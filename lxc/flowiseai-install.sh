@@ -7,10 +7,12 @@
 
 # FlowiseAI LXC
 # Date added: 2024-05-02
+# Description: FlowiseAI is an open source low-code tool for developers to build customized LLM orchestration flow & AI agents
 # Default settings
 # CPU: 4vCPU
 # RAM: 4GB
 # HDD: 10GB
+# Port: 3000
 
 source /dev/stdin <<< "$FUNCTIONS_FILE_PATH"
 color
