@@ -8,10 +8,12 @@
 
 # Open WebUI LXC
 # Date added: 2024-10-24
+# Description: OpenWebUI is a self-hosted, web-based interface that allows you to run AI models entirely offline. It integrates with various LLM runners, such as OpenAI and Ollama, and supports features like markdown and LaTeX rendering, model management, and voice/video calls. It also offers multilingual support and the ability to generate images using APIs like DALL-E or ComfyUI
 # Default settings
 # CPU: 4vCPU
 # RAM: 4GB
 # HDD: 16GB
+# Port: 8080
 
 source /dev/stdin <<< "$FUNCTIONS_FILE_PATH"
 color
